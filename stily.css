@@ -1,0 +1,65 @@
+
+body{
+    border: 5px solid black;
+    margin: 10px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 4, 1fr;
+    grid-template-rows: 4, 1fr;
+}
+.header{
+    border: 5px solid black;
+    grid-column: 1/4;
+    grid-template-rows: 1;
+    background-color: cornflowerblue;
+
+
+}
+.mainContent{
+    border: 5px solid black;
+    grid-column: 2;
+    grid-row: 2;
+    background-color: darkgreen;
+
+}
+.sidebar{
+    border: 5px solid black;
+    grid-column: 3;
+    grid-row: 2;
+    background-color: darkorchid;
+
+}
+.twin1{
+    border: 5px solid black;
+grid-column: 2;
+grid-row: 3;
+background-color: orange;
+}
+.twin2{
+    border: 5px solid black;
+    grid-column: 3;
+    grid-row: 3;
+    background-color: orange;
+
+}
+.footer{
+    border: 5px solid black;
+    grid-column: 1/4;
+    grid-row: 4;
+    background-color: blue;
+
+}
+#empty1{
+grid-column: 1;
+    grid-row: 2/3;
+}
+#empty2{
+grid-column: 4;
+grid-row: 2/3;
+}
+.coolclass{
+color:blue;
+}
+.evencoolerclass{
+color:  red;
+}
